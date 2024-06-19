@@ -9,13 +9,20 @@ Indicates when a player is out.
 Displays total balls played by each player.
 Summarizes the match (Player Name, Score, Balls Played).
 Identifies and displays the man of the match.
+Instructions
 How to Run
 Ensure you have a C++ compiler installed.
+
+For Windows, you can use MinGW.
+For Linux, you can use g++.
+For macOS, you can use Xcode's command line tools.
 Compile the program:
+
 sh
 Copy code
 g++ cricket_match_simulation.cpp -o cricket_match_simulation
 Run the executable:
+
 sh
 Copy code
 ./cricket_match_simulation
@@ -29,13 +36,16 @@ Cricket Match Simulation
 Scores per Ball: OUT
 Total Score: 0	 Balls Played: 1
 
+2. Naseem Shah
+Scores per Ball: 3 6 1 1 1 OUT
+Total Score: 12	 Balls Played: 6
+
 ...
 
 <<<<<< Match Summary >>>>>>
 Player Name	Score	Balls Played
 Babar Azam	0	1
+Naseem Shah	12	6
 ...
 
 Man of the Match: Agha Salman
-Code
-The complete code is provided in the cricket_match_simulation.cpp file in this repository.
