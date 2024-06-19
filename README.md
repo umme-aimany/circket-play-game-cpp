@@ -17,35 +17,4 @@ For Windows, you can use MinGW.
 For Linux, you can use g++.
 For macOS, you can use Xcode's command line tools.
 Compile the program:
-
-sh
-Copy code
-g++ cricket_match_simulation.cpp -o cricket_match_simulation
-Run the executable:
-
-sh
-Copy code
-./cricket_match_simulation
-Sample Output
-sql
-Copy code
-Cricket Match Simulation
-========================
-
-1. Babar Azam
-Scores per Ball: OUT
-Total Score: 0	 Balls Played: 1
-
-2. Naseem Shah
-Scores per Ball: 3 6 1 1 1 OUT
-Total Score: 12	 Balls Played: 6
-
-...
-
-<<<<<< Match Summary >>>>>>
-Player Name	Score	Balls Played
-Babar Azam	0	1
-Naseem Shah	12	6
-...
-
-Man of the Match: Agha Salman
+----------------------------------------------------------------------------------------------------------------------------
